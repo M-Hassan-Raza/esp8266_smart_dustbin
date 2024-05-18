@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 
-const char* ssid = "Infinity";
+const char* ssid = "wifi_name";
 const char* password = "12345678";
-const char* serverIP = "192.168.220.49";
+const char* serverIP = "laptop_wifi_adapter_IP";
 const int serverPort = 1234;
 
 WiFiClient client;
